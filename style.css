@@ -1,6 +1,5 @@
-
 body{
-    background-color:#dff6ff;
+    background-color:#8BC34A;
     font-family:Arial, Helvetica, sans-serif;
     margin:0;
 }
@@ -10,14 +9,13 @@ body{
     max-width:800px;
     margin:40px auto;
     padding:20px;
-    background-color:white;
-    border-radius:15px;
+    background-color:#ffffff;
     text-align:center;
-    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border-radius:15px;
 }
 
 h1{
-    color:#0b5ed7;
+    color:#2E7D32;
     font-size:40px;
 }
 
@@ -29,26 +27,24 @@ p{
     color:#333;
     font-size:20px;
     text-align:justify;
-    margin-top:20px;
 }
 
 img{
     width:100%;
-    border-radius:12px;
-    margin-top:20px;
+    border-radius:15px;
+    margin:20px 0;
 }
 
-a{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    background-color:#0b5ed7;
+button{
+    background-color:#2E7D32;
     color:white;
-    text-decoration:none;
+    font-size:18px;
+    padding:12px 25px;
+    border:none;
     border-radius:10px;
-    transition:0.3s;
+    cursor:pointer;
 }
 
-a:hover{
-    background-color:#084298;
+button:hover{
+    background-color:#1B5E20;
 }
